@@ -75,7 +75,7 @@
           "description": "React ve Axios ile geliştirilmiş pizza sipariş uygulaması. Kullanıcılar malzeme seçip özelleştirilmiş sipariş oluşturabiliyor. Axios ile API entegrasyonu, Cypress ile uçtan uca testler ve Vite ile hızlı geliştirme ortamı içeriyor.",
           "tech": ["react", "axios", "cypress", "vite"],
           "github": "https://github.com/batuizmirli/Pizza-Order-App",
-          "live": "https://github.com/batuizmirli/Pizza-Order-App"
+          "live": "https://pizza-order-app-theta.vercel.app"
         },
         {
           "name": "Custom Calendar",
@@ -210,7 +210,7 @@
           "description": "A pizza ordering application built with React and Axios. Users can choose toppings and build a customized order. Features Axios API integration, end-to-end tests with Cypress, and a fast dev environment powered by Vite.",
           "tech": ["react", "axios", "cypress", "vite"],
           "github": "https://github.com/batuizmirli/Pizza-Order-App",
-          "live": "https://github.com/batuizmirli/Pizza-Order-App"
+          "live": "https://pizza-order-app-theta.vercel.app"
         },
         {
           "name": "Custom Calendar",
