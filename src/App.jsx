@@ -5,7 +5,6 @@ import HeroSection from './components/HeroSection'
 import AboutSection from './components/AboutSection'
 import SkillsSection from './components/SkillsSection'
 import ProjectsSection from './components/ProjectsSection'
-import ApiDemoSection from './components/ApiDemoSection'
 import Footer from './components/Footer'
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
         <SkillsSection />
         <AboutSection />
         <ProjectsSection />
-        <ApiDemoSection />
       </main>
       <Footer />
       <ToastContainer position="bottom-right" autoClose={2500} theme="colored" />
