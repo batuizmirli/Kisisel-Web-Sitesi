@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text: #3d3d3d;
+  --text-h: #1a1a1a;
+  --bg: #ffffff;
+  --border: transparent;
+  --code-bg: #f4f3ec;
+  --accent: #e91e8c;
+  --accent-bg: rgba(233, 30, 140, 0.08);
+  --accent-border: rgba(233, 30, 140, 0.7);
+  --social-bg: rgba(233, 30, 140, 0.1);
+  --primary: #1a1a1a;
+  --surface: #f8f8f8;
+  --pink: #e91e8c;
+  --shadow:
+    rgba(17, 12, 46, 0.1) 0 12px 20px -8px, rgba(17, 12, 46, 0.08) 0 6px 10px -6px;
+
+  --sans: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+:root[data-theme='dark'] {
+  --text: #d4d4d4;
+  --text-h: #f5f5f5;
+  --bg: #1a1a1a;
+  --border: transparent;
+  --code-bg: #2a2a2a;
+  --accent: #ff4da6;
+  --accent-bg: rgba(255, 77, 166, 0.15);
+  --accent-border: rgba(255, 77, 166, 0.8);
+  --social-bg: rgba(255, 255, 255, 0.08);
+  --primary: #f5f5f5;
+  --surface: #242424;
+  --pink: #ff4da6;
+  --shadow:
+    rgba(0, 0, 0, 0.45) 0 12px 20px -8px, rgba(0, 0, 0, 0.32) 0 6px 10px -6px;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 58px;
+  letter-spacing: -1.68px;
+  margin: 24px 0;
+  @media (max-width: 1024px) {
+    font-size: 44px;
+    margin: 20px 0;
+  }
+}
+h2 {
+  font-size: 24px;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+p {
+  margin: 0;
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}

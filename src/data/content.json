@@ -1,0 +1,266 @@
+{
+  "tr": {
+    "meta": {
+      "name": "Batu İzmirli",
+      "role": "Frontend Developer"
+    },
+    "nav": [
+      { "id": "hero", "label": "Ana Sayfa" },
+      { "id": "about", "label": "Hakkımda" },
+      { "id": "skills", "label": "Yetenekler" },
+      { "id": "projects", "label": "Projeler" },
+      { "id": "experience", "label": "Deneyim" },
+      { "id": "api", "label": "API Demo" },
+      { "id": "contact", "label": "İletişim" }
+    ],
+    "buttons": {
+      "theme": "Tema",
+      "language": "Dil",
+      "light": "Açık",
+      "dark": "Koyu",
+      "contact": "Benimle İletişime Geç",
+      "details": "Detaylar"
+    },
+    "header": {
+      "darkMode": "DARK MODE",
+      "lightMode": "LIGHT MODE"
+    },
+    "hero": {
+      "greeting": "Merhaba! 👋",
+      "highlightName": "Ben Batu İzmirli.",
+      "title": "Ben bir frontend geliştiriciyim. Güçlü ve ölçeklenebilir React uygulamaları geliştirebilirim. Tanışalım!",
+      "notePrefix": "Şu anda",
+      "noteAccent1": "Freelancing",
+      "noteMiddle": "olarak",
+      "noteAccent2": "UX, UI & Web Design",
+      "noteInvite": "Ekibine katılmam için davet et →",
+      "email": "y.batuizmirli@gmail.com"
+    },
+    "about": {
+      "title": "Hakkımda",
+      "text": "Yazılım yolculuğumda hedefim; tasarımı doğru semantik yapı, güçlü kullanıcı deneyimi ve ölçeklenebilir React mimarisi ile birleştirmek. Öğrenmeye açık, üretmeyi seven ve ekip çalışmasına uyumlu bir geliştiriciyim."
+    },
+    "skills": {
+      "title": "Yetenekler",
+      "items": [
+        { "name": "JAVASCRIPT", "level": 95 },
+        { "name": "REACT", "level": 92 },
+        { "name": "REDUX", "level": 88 },
+        { "name": "NODE", "level": 86 },
+        { "name": "VS CODE", "level": 83 },
+        { "name": "FIGMA", "level": 80 }
+      ]
+    },
+    "profile": {
+      "title": "Profil",
+      "infoTitle": "Temel Bilgiler",
+      "aboutTitle": "Hakkımda",
+      "aboutParagraph1": "Frontend geliştirme alanında yoğun eğitim aldıktan sonra, modern web teknolojileriyle ilişkili projeler geliştirmeye başladım. React ve JavaScript'in gücünü kullanarak kullanıcı deneyimini en iyi şekilde sunabilen uygulamalar yaratmaya çalışıyorum.",
+      "aboutParagraph2": "Kod kalitesi ve sürdürülebilirlik benim için önemli. Her yeni proje, öncekinden daha iyi kod yazma fırsatı. Ekip halinde çalışmayı seviyorum çünkü farklı perspektiflerden öğrenme şansı veriyor.",
+      "info": [
+        { "label": "Doğum tarihi", "value": "Ağustos 2000" },
+        { "label": "İkamet Şehri", "value": "Ankara" },
+        { "label": "Eğitim Durumu", "value": "Lisans Derecesi, 2023" },
+        { "label": "Tercih Ettiği Rol", "value": "Frontend, UI" }
+      ]
+    },
+    "projects": {
+      "title": "Projeler",
+      "technologiesLabel": "Teknolojiler",
+      "viewOnGithub": "Github'ta Gör",
+      "goToApp": "Uygulamaya Git →",
+      "items": [
+        {
+          "name": "Pizza Order App",
+          "description": "React ve Axios ile geliştirilmiş pizza sipariş uygulaması. Kullanıcılar malzeme seçip özelleştirilmiş sipariş oluşturabiliyor. Axios ile API entegrasyonu, Cypress ile uçtan uca testler ve Vite ile hızlı geliştirme ortamı içeriyor.",
+          "tech": ["react", "axios", "cypress", "vite"],
+          "github": "https://github.com/batuizmirli/Pizza-Order-App",
+          "live": "https://github.com/batuizmirli/Pizza-Order-App"
+        },
+        {
+          "name": "Custom Calendar",
+          "description": "Özel tarih seçimi ve etkinlik yönetimi için geliştirilmiş React bileşeni. Vanilla JavaScript'in gücünü React mimarisine entegre eden interaktif bir takvim uygulaması. Dinamik tarih kontrolü ve etkinlik takibi imkanı sağlıyor.",
+          "tech": ["react", "javascript", "css"],
+          "github": "https://github.com/batuizmirli/CustomCalender",
+          "live": "https://github.com/batuizmirli/CustomCalender"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Kısa Deneyim Özeti",
+      "items": [
+        {
+          "period": "2025 - Günümüz",
+          "title": "Frontend Stajyer Geliştirici",
+          "description": "React tabanlı ekranlar geliştirme, API entegrasyonu ve ekip kod incelemelerine katılım."
+        },
+        {
+          "period": "2024 - 2025",
+          "title": "Workintech Öğrencisi",
+          "description": "HTML, CSS, JavaScript, React, test ve deploy süreçlerini içeren yoğun eğitim."
+        }
+      ]
+    },
+    "api": {
+      "title": "Axios API Demo",
+      "description": "Aşağıdaki kartlar Reqres API üzerinden axios ile çekilen örnek kullanıcı verileridir.",
+      "loading": "Veriler yükleniyor...",
+      "error": "Veri alınırken bir hata oluştu."
+    },
+    "contact": {
+      "title": "İletişim",
+      "description": "Bana kısa bir mesaj bırak. Form verisi axios ile reqres.in/api/workintech endpointine POST edilir.",
+      "fields": {
+        "name": "Ad Soyad",
+        "email": "E-posta",
+        "message": "Mesaj"
+      },
+      "submit": "Mesaj Gönder",
+      "pending": "Mesaj gönderiliyor...",
+      "success": "Mesajın başarıyla gönderildi.",
+      "error": "Gönderim sırasında bir hata oluştu."
+    },
+    "footer": {
+      "prefix": "Bir sonraki projen",
+      "highlight": "üzerinde birlikte",
+      "suffixTop": "çalışalım",
+      "suffixBottom": ".",
+      "github": "Github",
+      "blog": "Kişisel Blog",
+      "linkedin": "Linkedin",
+      "email": "E-posta"
+    }
+  },
+  "en": {
+    "meta": {
+      "name": "Batu Izmirli",
+      "role": "Frontend Developer"
+    },
+    "nav": [
+      { "id": "hero", "label": "Home" },
+      { "id": "about", "label": "About" },
+      { "id": "skills", "label": "Skills" },
+      { "id": "projects", "label": "Projects" },
+      { "id": "experience", "label": "Experience" },
+      { "id": "api", "label": "API Demo" },
+      { "id": "contact", "label": "Contact" }
+    ],
+    "buttons": {
+      "theme": "Theme",
+      "language": "Language",
+      "light": "Light",
+      "dark": "Dark",
+      "contact": "Contact Me",
+      "details": "Details"
+    },
+    "header": {
+      "darkMode": "DARK MODE",
+      "lightMode": "LIGHT MODE"
+    },
+    "hero": {
+      "greeting": "Hi! 👋",
+      "highlightName": "I'm Batu Izmirli.",
+      "title": "I'm a frontend developer. I can craft solid and scalable React applications. Let's meet!",
+      "notePrefix": "Currently",
+      "noteAccent1": "Freelancing",
+      "noteMiddle": "for",
+      "noteAccent2": "UX, UI, & Web Design",
+      "noteInvite": "Invite me to join your team →",
+      "email": "y.batuizmirli@gmail.com"
+    },
+    "about": {
+      "title": "About Me",
+      "text": "My goal in software is to combine design with semantic structure, strong user experience and scalable React architecture. I am a developer who is open to learning, enjoys building and collaborates well with teams."
+    },
+    "skills": {
+      "title": "Skills",
+      "items": [
+        { "name": "JAVASCRIPT", "level": 95 },
+        { "name": "REACT", "level": 92 },
+        { "name": "REDUX", "level": 88 },
+        { "name": "NODE", "level": 86 },
+        { "name": "VS CODE", "level": 83 },
+        { "name": "FIGMA", "level": 80 }
+      ]
+    },
+    "profile": {
+      "title": "Profile",
+      "infoTitle": "Basic Information",
+      "aboutTitle": "About me",
+      "aboutParagraph1": "After intensive training in frontend development, I started developing projects with modern web technologies. Using the power of React and JavaScript, I strive to create applications that deliver the best user experience.",
+      "aboutParagraph2": "Code quality and sustainability are important to me. Every new project is an opportunity to write better code than before. I enjoy working in teams because it gives me the opportunity to learn from different perspectives.",
+      "info": [
+        { "label": "Birth Date", "value": "August 2000" },
+        { "label": "City", "value": "Ankara" },
+        { "label": "Education", "value": "Bachelor's Degree, 2023" },
+        { "label": "Preferred Role", "value": "Frontend, UI" }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "technologiesLabel": "Technologies",
+      "viewOnGithub": "View on Github",
+      "goToApp": "Go to app →",
+      "items": [
+        {
+          "name": "Pizza Order App",
+          "description": "A pizza ordering application built with React and Axios. Users can choose toppings and build a customized order. Features Axios API integration, end-to-end tests with Cypress, and a fast dev environment powered by Vite.",
+          "tech": ["react", "axios", "cypress", "vite"],
+          "github": "https://github.com/batuizmirli/Pizza-Order-App",
+          "live": "https://github.com/batuizmirli/Pizza-Order-App"
+        },
+        {
+          "name": "Custom Calendar",
+          "description": "A React component developed for custom date selection and event management. An interactive calendar application that integrates vanilla JavaScript's power into React architecture. Provides dynamic date control and event tracking capabilities.",
+          "tech": ["react", "javascript", "css"],
+          "github": "https://github.com/batuizmirli/CustomCalender",
+          "live": "https://github.com/batuizmirli/CustomCalender"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience Summary",
+      "items": [
+        {
+          "period": "2025 - Present",
+          "title": "Frontend Developer Intern",
+          "description": "Building React screens, integrating APIs and joining team code reviews."
+        },
+        {
+          "period": "2024 - 2025",
+          "title": "Workintech Student",
+          "description": "Intensive training including HTML, CSS, JavaScript, React, testing and deployment."
+        }
+      ]
+    },
+    "api": {
+      "title": "Axios API Demo",
+      "description": "The cards below show sample user data fetched from Reqres API via axios.",
+      "loading": "Loading data...",
+      "error": "An error occurred while fetching data."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Leave me a short message. Form payload is posted to reqres.in/api/workintech with axios.",
+      "fields": {
+        "name": "Full Name",
+        "email": "Email",
+        "message": "Message"
+      },
+      "submit": "Send Message",
+      "pending": "Sending message...",
+      "success": "Your message has been sent successfully.",
+      "error": "An error occurred while sending the form."
+    },
+    "footer": {
+      "prefix": "Let's",
+      "highlight": "work together",
+      "suffixTop": "on",
+      "suffixBottom": "your next product.",
+      "github": "Github",
+      "blog": "Personal Blog",
+      "linkedin": "Linkedin",
+      "email": "Email"
+    }
+  }
+}
