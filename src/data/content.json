@@ -126,8 +126,8 @@
     "footer": {
       "prefix": "Bir sonraki projen",
       "highlight": "üzerinde birlikte",
-      "suffixTop": "çalışalım",
-      "suffixBottom": ".",
+      "suffixTop": "çalışalım.",
+      
       "github": "Github",
       "blog": "Kişisel Blog",
       "linkedin": "Linkedin",

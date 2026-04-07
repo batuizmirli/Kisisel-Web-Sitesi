@@ -2,14 +2,13 @@ import { useAppContext } from '../context/AppContext'
 
 function Footer() {
   const { t } = useAppContext()
+  const needsSpaceBeforeSuffixBottom = t.footer.suffixBottom && !/^[.,!?;:]/.test(t.footer.suffixBottom)
 
   return (
     <footer className="site-footer" id="footer">
       <div className="container footer-content">
         <h2 className="footer-title">
-          {t.footer.prefix} <span>{t.footer.highlight}</span> {t.footer.suffixTop}
-          <br />
-          {t.footer.suffixBottom}
+          {t.footer.prefix} <span>{t.footer.highlight}</span> {t.footer.suffixTop}<br />{t.footer.suffixBottom}
         </h2>
         <div className="footer-links">
           <a href="https://github.com/batuizmirli" target="_blank" rel="noreferrer">{t.footer.github}</a>

@@ -498,8 +498,8 @@ main {
   content: '';
   position: absolute;
   right: -22px;
-  bottom: 0;
-  transform: translateY(50%);
+  top: 0;
+  transform: translateY(-70%);
   width: 121px;
   height: 121px;
   border: 21px solid #d9d9d9;
@@ -518,7 +518,7 @@ main {
   content: '';
   position: absolute;
   right: -41px;
-  top: -6px;
+  top: 30px;
   width: 82px;
   height: 82px;
   border: 12px solid #ea2678;
