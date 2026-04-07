@@ -105,7 +105,10 @@
       "title": "Axios API Demo",
       "description": "Aşağıdaki kartlar Reqres API üzerinden axios ile çekilen örnek kullanıcı verileridir.",
       "loading": "Veriler yükleniyor...",
-      "error": "Veri alınırken bir hata oluştu."
+      "error": "Veri alınırken bir hata oluştu.",
+      "retry": "Tekrar dene",
+      "cached": "Veri önbellekten yüklendi. Yeniden istek atılmadı.",
+      "fresh": "Veri dış servisten başarıyla alındı."
     },
     "contact": {
       "title": "İletişim",
@@ -237,7 +240,10 @@
       "title": "Axios API Demo",
       "description": "The cards below show sample user data fetched from Reqres API via axios.",
       "loading": "Loading data...",
-      "error": "An error occurred while fetching data."
+      "error": "An error occurred while fetching data.",
+      "retry": "Retry",
+      "cached": "Data loaded from cache. No extra request was sent.",
+      "fresh": "Data fetched successfully from the external service."
     },
     "contact": {
       "title": "Contact",

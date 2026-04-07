@@ -900,6 +900,64 @@ main {
   font-size: 14px;
 }
 
+.api-feedback {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.api-retry-btn {
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.api-meta-text {
+  margin-top: 12px;
+  color: #666;
+  font-size: 13px;
+}
+
+.api-card-skeleton {
+  animation: apiPulse 1.4s ease-in-out infinite;
+}
+
+.api-skeleton-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin: 0 auto 12px;
+  background: #ebebeb;
+}
+
+.api-skeleton-line {
+  height: 12px;
+  border-radius: 6px;
+  background: #ebebeb;
+  margin: 0 auto 10px;
+  width: 72%;
+}
+
+.api-skeleton-line.short {
+  width: 52%;
+}
+
+@keyframes apiPulse {
+  0%,
+  100% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
 /* CONTACT SECTION */
 #contact {
   background: #f8f8f8;
