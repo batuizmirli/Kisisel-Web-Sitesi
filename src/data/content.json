@@ -59,7 +59,7 @@
       "aboutParagraph2": "Kod kalitesi ve sürdürülebilirlik benim için önemli. Her yeni proje, öncekinden daha iyi kod yazma fırsatı. Ekip halinde çalışmayı seviyorum çünkü farklı perspektiflerden öğrenme şansı veriyor.",
       "info": [
         { "label": "Doğum tarihi", "value": "Ağustos 2000" },
-        { "label": "İkamet Şehri", "value": "Ankara" },
+        { "label": "İkamet Şehri", "value": "İstanbul" },
         { "label": "Eğitim Durumu", "value": "Lisans Derecesi, 2023" },
         { "label": "Tercih Ettiği Rol", "value": "Frontend, UI" }
       ]
@@ -194,7 +194,7 @@
       "aboutParagraph2": "Code quality and sustainability are important to me. Every new project is an opportunity to write better code than before. I enjoy working in teams because it gives me the opportunity to learn from different perspectives.",
       "info": [
         { "label": "Birth Date", "value": "August 2000" },
-        { "label": "City", "value": "Ankara" },
+        { "label": "City", "value": "Istanbul" },
         { "label": "Education", "value": "Bachelor's Degree, 2023" },
         { "label": "Preferred Role", "value": "Frontend, UI" }
       ]
