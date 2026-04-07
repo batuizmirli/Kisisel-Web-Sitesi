@@ -82,7 +82,7 @@
           "description": "Özel tarih seçimi ve etkinlik yönetimi için geliştirilmiş React bileşeni. Vanilla JavaScript'in gücünü React mimarisine entegre eden interaktif bir takvim uygulaması. Dinamik tarih kontrolü ve etkinlik takibi imkanı sağlıyor.",
           "tech": ["react", "javascript", "css"],
           "github": "https://github.com/batuizmirli/CustomCalender",
-          "live": "https://github.com/batuizmirli/CustomCalender"
+          "live": "https://custom-calender-two.vercel.app"
         }
       ]
     },
@@ -217,7 +217,7 @@
           "description": "A React component developed for custom date selection and event management. An interactive calendar application that integrates vanilla JavaScript's power into React architecture. Provides dynamic date control and event tracking capabilities.",
           "tech": ["react", "javascript", "css"],
           "github": "https://github.com/batuizmirli/CustomCalender",
-          "live": "https://github.com/batuizmirli/CustomCalender"
+          "live": "https://custom-calender-two.vercel.app"
         }
       ]
     },
