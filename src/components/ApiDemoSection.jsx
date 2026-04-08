@@ -39,7 +39,6 @@ function setCachedUsers(users) {
   try {
     sessionStorage.setItem(API_USERS_CACHE_KEY, JSON.stringify(users))
   } catch {
-    // Storage unavailable; memory cache still works.
   }
 }
 
