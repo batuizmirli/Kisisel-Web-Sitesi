@@ -1186,7 +1186,7 @@ main {
 /* RESPONSIVE */
 @media (max-width: 1024px) {
   .header-content {
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   .floating-badge {
@@ -1259,7 +1259,11 @@ main {
   .controls {
     gap: 10px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
+  }
+
+  .footer-title span::after {
+    display: none;
   }
 
   .theme-pill,
@@ -1304,7 +1308,8 @@ main {
 
   #skills::before,
   #skills::after,
-  #about::after {
+  #about::after,
+  .hero-grid::after {
     display: none;
   }
 
