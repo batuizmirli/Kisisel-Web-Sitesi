@@ -22,7 +22,7 @@ export function AppProvider({ children }) {
         })
 
         if (isMounted) {
-          // Challenge requirement: log Reqres POST response on app flow
+          
           console.info('Reqres POST response:', response)
         }
       } catch (error) {

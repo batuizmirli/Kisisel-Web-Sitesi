@@ -18,7 +18,7 @@ export function useLocalStorage(key, initialValue) {
       setStoredValue(valueToStore)
       window.localStorage.setItem(key, JSON.stringify(valueToStore))
     } catch {
-      // localStorage access can fail in private mode; fail silently
+  
     }
   }
 
