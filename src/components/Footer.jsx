@@ -2,7 +2,6 @@ import { useAppContext } from '../context/AppContext'
 
 function Footer() {
   const { t } = useAppContext()
-  const needsSpaceBeforeSuffixBottom = t.footer.suffixBottom && !/^[.,!?;:]/.test(t.footer.suffixBottom)
 
   return (
     <footer className="site-footer" id="footer">
