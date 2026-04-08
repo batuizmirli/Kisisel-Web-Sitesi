@@ -1256,20 +1256,32 @@ main {
     inset: 22px 0 auto;
   }
 
-  .controls {
-    gap: 10px;
-    flex-wrap: wrap;
+  .header-content {
     justify-content: flex-end;
   }
 
+  .controls {
+    gap: 8px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
   .footer-title span::after {
-    display: none;
+    display: block;
+    width: 120px;
+    height: 10px;
+    left: 4px;
+    top: auto;
+    bottom: 4px;
+    z-index: -1;
   }
 
   .theme-pill,
   .language-link {
     width: auto;
     min-height: auto;
+    min-width: auto;
     border-left: none;
     padding-left: 0;
   }
@@ -1344,7 +1356,7 @@ main {
 
   :root[data-theme='dark'] #projects,
   :root[data-theme='dark'] .site-footer {
-    background: #1f1f1f;
+    background: #1a1a1a;
   }
 
   :root[data-theme='dark'] .project-blue {
