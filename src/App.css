@@ -24,6 +24,14 @@ main {
   text-align: center;
 }
 
+.section-loader {
+  min-height: 56px;
+  display: grid;
+  place-items: center;
+  color: var(--text-h);
+  font-size: 14px;
+}
+
 /* HEADER */
 .site-header {
   position: absolute;

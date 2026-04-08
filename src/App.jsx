@@ -1,23 +1,35 @@
+import { Suspense, lazy } from 'react'
 import './App.css'
 import { ToastContainer } from 'react-toastify'
-import Header from './components/Header'
-import HeroSection from './components/HeroSection'
-import AboutSection from './components/AboutSection'
-import SkillsSection from './components/SkillsSection'
-import ProjectsSection from './components/ProjectsSection'
-import Footer from './components/Footer'
+
+const Header = lazy(() => import('./components/Header'))
+const HeroSection = lazy(() => import('./components/HeroSection'))
+const AboutSection = lazy(() => import('./components/AboutSection'))
+const SkillsSection = lazy(() => import('./components/SkillsSection'))
+const ProjectsSection = lazy(() => import('./components/ProjectsSection'))
+const Footer = lazy(() => import('./components/Footer'))
+
+function SectionLoader() {
+  return <div className="section-loader" role="status" aria-live="polite">Loading...</div>
+}
 
 function App() {
   return (
     <>
-      <Header />
+      <Suspense fallback={<SectionLoader />}>
+        <Header />
+      </Suspense>
       <main>
-        <HeroSection />
-        <SkillsSection />
-        <AboutSection />
-        <ProjectsSection />
+        <Suspense fallback={<SectionLoader />}>
+          <HeroSection />
+          <SkillsSection />
+          <AboutSection />
+          <ProjectsSection />
+        </Suspense>
       </main>
-      <Footer />
+      <Suspense fallback={<SectionLoader />}>
+        <Footer />
+      </Suspense>
       <ToastContainer position="bottom-right" autoClose={2500} theme="colored" />
     </>
   )
