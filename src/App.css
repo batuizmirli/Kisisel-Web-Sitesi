@@ -1143,6 +1143,7 @@ main {
 
 :root[data-theme='dark'] .profile-info .value,
 :root[data-theme='dark'] .about-text,
+:root[data-theme='dark'] .about-subtitle,
 :root[data-theme='dark'] .hero-note,
 :root[data-theme='dark'] .skill-label {
   color: var(--text-h);
@@ -1322,31 +1323,31 @@ main {
   }
 
   :root[data-theme='dark'] .site-header {
-    background: rgba(244, 244, 244, 0.9);
-    border-bottom: 1px solid #d9d9d9;
+    background: rgba(26, 26, 26, 0.92);
+    border-bottom: 1px solid #3a3a3a;
   }
 
   :root[data-theme='dark'] .control-btn,
   :root[data-theme='dark'] .theme-label,
   :root[data-theme='dark'] .language-link-primary {
-    color: #111111;
+    color: var(--text-h);
   }
 
   :root[data-theme='dark'] .language-link-secondary {
-    color: #e91e8c;
+    color: #ff4da6;
   }
 
   :root[data-theme='dark'] #projects,
   :root[data-theme='dark'] .site-footer {
-    background: #f4f4f4;
+    background: #1f1f1f;
   }
 
   :root[data-theme='dark'] .project-blue {
-    background: #ddeefe;
+    background: #2a3645;
   }
 
   :root[data-theme='dark'] .project-green {
-    background: #dff9f2;
+    background: #263a37;
   }
 
   :root[data-theme='dark'] .project-card h3,
@@ -1355,19 +1356,19 @@ main {
   :root[data-theme='dark'] .tag-list li,
   :root[data-theme='dark'] .footer-title,
   :root[data-theme='dark'] .footer-links a {
-    color: #111111;
+    color: var(--text-h);
   }
 
   :root[data-theme='dark'] .tag-list li {
-    background: #ffffff;
-    border: 1px solid #d5d5d5;
+    background: #2f2f2f;
+    border: 1px solid #3a3a3a;
   }
 
   :root[data-theme='dark'] .footer-links a:nth-child(1) {
-    color: #1f5cff;
+    color: #4f8cff;
   }
 
   :root[data-theme='dark'] .footer-links a:nth-child(4) {
-    color: #e91e8c;
+    color: #ff4da6;
   }
 }
