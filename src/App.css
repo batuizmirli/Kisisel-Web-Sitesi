@@ -1253,11 +1253,22 @@ main {
   }
 
   .site-header {
-    inset: 22px 0 auto;
+    inset: 16px 12px auto auto;
+    left: auto;
+    right: 0;
+    width: max-content;
+    z-index: 60;
+  }
+
+  .site-header .container {
+    width: auto;
+    margin: 0;
+    padding: 0;
   }
 
   .header-content {
     justify-content: flex-end;
+    min-height: auto;
   }
 
   .controls {
@@ -1265,6 +1276,7 @@ main {
     flex-wrap: nowrap;
     justify-content: flex-end;
     margin-left: auto;
+    width: max-content;
   }
 
   .footer-title span::after {
